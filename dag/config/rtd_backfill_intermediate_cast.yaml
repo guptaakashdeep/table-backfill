@@ -1,0 +1,5 @@
+intermediate_cast:
+  srtd_process.stg_rwa_interfacing_exposures:
+    exposure_security_id: double
+  srtd_process.rwa_interfacing_reporting_attribute:
+    exposure_security_id: double

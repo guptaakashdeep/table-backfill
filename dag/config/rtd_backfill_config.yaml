@@ -1,0 +1,11 @@
+bkp_prefix: _bkp_20231116
+tables:
+  - srtd_process.stg_rwa_interfacing_exposures
+  - srtd_process.rwa_interfacing_crm_reporting_attribute
+  - srtd_process.rwa_interfacing_reporting_attribute
+  - srtd_detail.fct_exposures
+intermediate_cast:
+  srtd_process.stg_rwa_interfacing_exposures:
+    exposure_security_id: double
+  srtd_process.rwa_interfacing_reporting_attribute:
+    exposure_security_id: double
